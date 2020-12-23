@@ -16,7 +16,18 @@
                 </div>
                 <div class="hright">
                     <a href="javascript:void(0)" class="nav-link icon right_tab"><i class="fe fe-align-right"></i></a>
-                    <a href="login.html" class="nav-link icon settingbar"><i class="fe fe-power"></i></a>                
+                    <a href="" class="nav-link icon settingbar"><i class="fe fe-power"
+                   
+                    onclick="event.preventDefault();
+
+                        document.getElementById('logout-form').submit();"></i></a> 
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+
+                        @csrf
+
+                    </form>
+                    
                 </div>
             </div>
         </div>

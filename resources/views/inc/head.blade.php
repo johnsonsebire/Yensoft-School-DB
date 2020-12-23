@@ -17,11 +17,14 @@
 <!-- Core css -->
 <link rel="stylesheet" href="{{asset('css/style.min.css')}}"/>
 </head>
+ <!-- Scripts -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+
+ <script src="{{ asset('js/app.js') }}" defer></script>
 
 <body class="font-muli theme-cyan gradient">
-    <!-- Page Loader 
+    
     <div class="page-loader-wrapper">
         <div class="loader">
         </div>
     </div>
--->
