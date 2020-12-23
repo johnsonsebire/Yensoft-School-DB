@@ -1,15 +1,15 @@
 @extends('layouts.dashboard')
 
 @section('header')
-    Header Area
+    @include('inc.header')
 @endsection
 
 @section('topbar')
-    Top Bar Area
+    @include('inc.topbar')
 @endsection
 
 @section('mainsidebar')
-    Main Sidebar 
+    @include('inc.mainsidebar') 
 @endsection
 
 @section('maincontent')
@@ -17,5 +17,5 @@
 @endsection
 
 @section('footer')
-    Footer Area
+    @include('inc.footer')
 @endsection
