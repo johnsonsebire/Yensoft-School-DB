@@ -9,11 +9,11 @@
 @endsection
 
 @section('mainsidebar')
-    @include('inc.mainsidebar') 
+    @include('inc.sidebars.mainsidebar') 
 @endsection
 
-@section('maincontent')
-    Main Content Area
+@section('maincontent')   
+   @include('inc.content')
 @endsection
 
 @section('footer')

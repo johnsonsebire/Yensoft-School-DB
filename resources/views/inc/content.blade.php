@@ -1,4 +1,1 @@
-
-                    
-                    
-                
+@include('inc.widgets.activitypane')
