@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.auth')
 
 @section('content')
 <div class="container">
@@ -47,3 +47,8 @@
     </div>
 </div>
 @endsection
+
+@section('form')
+Form
+@endsection
+s

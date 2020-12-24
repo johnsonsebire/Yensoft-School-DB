@@ -35,7 +35,7 @@
                     </div>
                     <div class="text-center">
                         <button type="submit" class="btn btn-primary btn-block">Create new account</button>
-                        <div class="text-muted mt-4">Already have account? <a href="login.html">Sign in</a></div>
+                        <div class="text-muted mt-4">Already have account? <a href="{{route('login')}}">Sign in</a></div>
                     </div>
                 </div>
             </div>
