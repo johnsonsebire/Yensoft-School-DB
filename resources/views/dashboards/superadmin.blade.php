@@ -20,11 +20,19 @@
 
 @section('content')
 
-{{-- <div class="section-body mt-4">
+<div class="section-body mt-4">
     <div class="container-fluid">
-        <h4>@yield('current-page-title')</h4>
+        <div class="row col-md-12">
+         <div class="row col-md-6" style="padding-right:20px">
+         @livewire('student-list-table')
+         </div> 
         
-    </div>
-</div> --}}
+         <div class="row col-md-6">
+             @livewire('student-list-table')
+             </div> 
+         </div>
+         @livewire('payments-table-widget')
+        </div>
+</div>
 
 @endsection
