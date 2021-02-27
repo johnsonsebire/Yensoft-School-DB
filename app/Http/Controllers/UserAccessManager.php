@@ -14,7 +14,7 @@ class UserAccessManager extends Controller
         try {
 
             $role =Auth::user()->role;
-            $roles=['admin', 'school','parent','student','teacher','account', 'superadmin']; 
+            $roles=['admin', 'school','parent','student','teacher','account', 'superadmin', 'onboarding']; 
             $checkrole=in_array($role, $roles);
  
                                 
