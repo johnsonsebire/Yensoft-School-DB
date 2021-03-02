@@ -8,7 +8,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="text-center">
-                        <a class="header-brand" href="/dashboard/school">
+                        <a class="header-brand" href="/dashboard/onboarding">
                             <img src="{{asset('images/favicon.png')}}" class="brand-logo" width="50px" height="50px">
                             {{-- <i class="fa fa-graduation-cap brand-logo"></i> --}}
                         </a>

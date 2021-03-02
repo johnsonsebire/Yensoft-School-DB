@@ -77,6 +77,13 @@ class AuthServiceProvider extends ServiceProvider
             return false;
         });
 
+        Gate::define('onboarding', function($LoggedInUser){
+            if($LoggedInUser->role=='onboarding') {
+                return true;
+            }
+            return false;
+        }); 
+
         Gate::define('superadmin', function($LoggedInUser){
             if($LoggedInUser->role=='superadmin') {
                 return true;

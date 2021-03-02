@@ -38,7 +38,7 @@ class CreateNewUser implements CreatesNewUsers
 
             //configure default user role 
 
-            'role'=> 'school', 
+            'role'=> 'onboarding', 
 
 
         ]);

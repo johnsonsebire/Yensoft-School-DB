@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Auth;
+use PragmaRX\Countries\Package\Countries;
+
 
 class UserAccessManager extends Controller
 {
@@ -25,8 +27,13 @@ class UserAccessManager extends Controller
                     } else 
                     
                      if($role==$dashboard) {
-                         return view("dashboards.$role");
-                     } else abort(403, 'Invalid Request');
+                        
+                        // $nations = new Countries(); 
+                        $countries=Countries::all();
+
+                         return view("dashboards.$role", compact('countries'));
+  
+                    } else abort(403, 'Invalid Request');
  
                 case false: abort(403,'Access Denied');
  
