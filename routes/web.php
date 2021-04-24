@@ -15,9 +15,7 @@ use App\Http\Controllers\UserAccessManager;
 |
 */
 
-Route::get('/', function () {
-    return view('auth.login');
-});
+Route::view('/', 'auth.login');
 
 Route::middleware(['auth:sanctum', 'accesslevel'])->get('/dashboard', function () {
     return view('dashboard');

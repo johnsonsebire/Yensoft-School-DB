@@ -11,13 +11,14 @@
 
 @endcan
 
-<li><a href="/dashboard"><i class="fa fa-users"></i><span>Students</span></a></li>
+<li><a href="/dashboard"><i class="fa fa-users"></i><span>Account Setup</span></a></li>
 
 
 @endsection
 
 @section('user-navigation')
 {{-- <li><a href="/dashboard"><i class="fa fa-black-tie"></i><span>Teachers</span></a></li> --}}
+<li><a> Account Setup</a> </li> 
 @endsection
 
 @section('content')
@@ -90,7 +91,7 @@
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-md-3 col-form-label">Address <span class="text-danger">*</span></label>
+            <label class="col-md-3 col-form-label">Postal Address <span class="text-danger">*</span></label>
             <div class="col-md-7">
                 <input type="text" class="form-control" placeholder="" value="">
             </div>
@@ -103,6 +104,12 @@
         </div>
         <div class="form-group row">
             <label class="col-md-3 col-form-label">Postal Code <span class="text-danger">*</span></label>
+            <div class="col-md-7">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-md-3 col-form-label">GPS Address <span class="text-danger">*</span></label>
             <div class="col-md-7">
                 <input type="text" class="form-control">
             </div>

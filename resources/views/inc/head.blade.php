@@ -10,6 +10,7 @@
 <!-- Bootstrap Core and vandor -->
 <link rel="stylesheet" href="{{asset('plugins/bootstrap/css/bootstrap.min.css')}}" />
 
+<link rel="stylesheet" href="{{asset('plugins/fullcalendar/fullcalendar.min.css')}}" />
 <!-- Core css -->
 <link rel="stylesheet" href="{{asset('css/style.min.css')}}"/>
 </head>

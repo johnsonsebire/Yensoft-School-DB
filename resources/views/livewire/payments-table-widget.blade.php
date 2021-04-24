@@ -1,6 +1,5 @@
-<div class="row">
-    <div class="col-md-12">
         <div class="card">
+            
             <div class="card-header">
                 <h3 class="card-title">Payment Status</h3>
                 <div class="card-options">
@@ -26,7 +25,7 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>Jens Brincker</td>
+                                <td>Mohammed Issahaku</td>
                                 <td>Basic 1</td>
                                 <td>GHS200</td>
                                 <td>
@@ -41,7 +40,7 @@
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Mark Hay</td>
+                                <td>Azumah Kobog</td>
                                 <td> Basic 2</td>
                                 <td>GHS500</td>
                                 <td>
@@ -56,7 +55,7 @@
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td>Anthony Davie</td>
+                                <td>Anthony Akudugu</td>
                                 <td>Basic 2</td>
                                 <td>GHS200</td>
                                 <td>
@@ -71,7 +70,7 @@
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>David Perry</td>
+                                <td>David Dontoh</td>
                                 <td>JHS 3 </td>
                                 <td>GHS100</td>
                                 <td>
@@ -86,7 +85,7 @@
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>Anthony Davie</td>
+                                <td>Janet Brago</td>
                                 <td>JHS 2</td>
                                 <td>GHS400</td>
                                 <td>
@@ -104,5 +103,4 @@
                 </div>  
             </div>
         </div>
-    </div>
-</div>
+   

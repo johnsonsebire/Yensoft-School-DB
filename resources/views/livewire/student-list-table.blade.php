@@ -1,4 +1,8 @@
-<h3 class="card-title">List of Newest Students</h3>
+<div class="card-header"> 
+    <h3 class="card-title">List of Newest Students</h3>
+</div>
+
+<div class="card-body">
 <div class="table-responsive card">
     <table class="table table-hover table-vcenter table-striped mb-0 text-nowrap">
         <thead>
@@ -17,8 +21,8 @@
                 <td class="w60">
                     <img class="avatar" src="{{asset('images/xs/avatar1.jpg')}}" alt="">
                 </td>
-                <td><span class="font-16">Ken Smith</span></td>
-                <td>Science</td>
+                <td><span class="font-16">Doreen Lartey</span></td>
+                <td>Basic 2</td>
                
                 <td>
                     {{-- <button type="button" class="btn btn-icon btn-sm" title="View"><i class="fa fa-eye"></i></button>
@@ -31,8 +35,8 @@
                 <td class="w60">
                     <img class="avatar" src="{{asset('images/xs/avatar2.jpg')}}" alt="">
                 </td>
-                <td><span class="font-16">Gerald K Smith</span></td>
-                <td>M.C.A.</td>
+                <td><span class="font-16">Gerald K Lamisi</span></td>
+                <td>Basic 1</td>
                
                 <td></td>
             </tr>
@@ -41,8 +45,8 @@
                 <td class="w60">
                     <img class="avatar" src="{{asset('images/xs/avatar3.jpg')}}" alt="">
                 </td>
-                <td><span class="font-16">Ken Smith</span></td>
-                <td>Mechanical</td>
+                <td><span class="font-16">Anita Bema</span></td>
+                <td>Basic 3</td>
               
                 <td> </td>
             </tr>
@@ -51,8 +55,8 @@
                 <td class="w60">
                     <img class="avatar" src="{{asset('images/xs/avatar4.jpg')}}" alt="">
                 </td>
-                <td><span class="font-16">Alice A Smith</span></td>
-                <td>M.B.B.S.</td>
+                <td><span class="font-16">Alice A Talata</span></td>
+                <td>Basic 2</td>
                 
                 <td>
                     {{-- <button type="button" class="btn btn-icon btn-sm" title="View"><i class="fa fa-eye"></i></button>
@@ -66,7 +70,7 @@
                     <img class="avatar" src="{{asset('images/xs/avatar5.jpg')}}" alt="">
                 </td>
                 <td><span class="font-16">Ken Smith</span></td>
-                <td>Arts</td>
+                <td>Basic 2</td>
                 {{-- <td>ken@gmail.com</td>
                 <td>(417) 646-7642</td>
                 <td>04 Jan, 2019</td> --}}
@@ -81,8 +85,8 @@
                 <td class="w60">
                     <img class="avatar" src="{{asset('images/xs/avatar6.jpg')}}" alt="">
                 </td>
-                <td><span class="font-16">Corrine M Johnson</span></td>
-                <td>Mechanical</td>
+                <td><span class="font-16">Kwabena Mensah</span></td>
+                <td>Basic 1</td>
                
                 <td> </td>
             </tr>
@@ -92,11 +96,12 @@
                     <img class="avatar" src="{{asset('images/xs/avatar7.jpg')}}" alt="">
                 </td>
                 <td><span class="font-16">Alan Johnson</span></td>
-                <td>Music</td>
+                <td>Basic 3</td>
                 
                 <td> </td>
             </tr>
             
         </tbody>
     </table>
+</div>
 </div>
